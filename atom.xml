@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Subrige&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="/"/>
+  <updated>2020-05-19T09:37:01.931Z</updated>
+  <id>/</id>
+  
+  <author>
+    <name>稚</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>死亡的恐惧</title>
+    <link href="/posts/686cd6fa/"/>
+    <id>/posts/686cd6fa/</id>
+    <published>2020-05-18T08:00:00.000Z</published>
+    <updated>2020-05-19T09:37:01.931Z</updated>
+    
+    <summary type="html">
+    
+      恐惧
+    
+    </summary>
+    
+    
+      <category term="杂" scheme="/tags/%E6%9D%82/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>听一首歌吧：4</title>
+    <link href="/posts/29ea3884/"/>
+    <id>/posts/29ea3884/</id>
+    <published>2020-05-13T08:00:00.000Z</published>
+    <updated>2020-05-19T09:37:01.941Z</updated>
+    
+    <summary type="html">
+    
+      坂本龙一最有名的一首曲子。
+    
+    </summary>
+    
+    
+      <category term="杂" scheme="/tags/%E6%9D%82/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>转载：卖米</title>
+    <link href="/posts/183d6f17/"/>
+    <id>/posts/183d6f17/</id>
+    <published>2020-05-13T04:00:00.000Z</published>
+    <updated>2020-05-19T09:37:01.934Z</updated>
+    
+    <summary type="html">
+    
+      很难受。
+    
+    </summary>
+    
+    
+      <category term="杂" scheme="/tags/%E6%9D%82/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>（持续更新）从jekyll到hexo的迁移旅途</title>
+    <link href="/posts/9732bc79/"/>
+    <id>/posts/9732bc79/</id>
+    <published>2020-05-11T04:00:00.000Z</published>
+    <updated>2020-05-19T09:37:01.926Z</updated>
+    
+    <summary type="html">
+    
+      旅途。
+    
+    </summary>
+    
+    
+      <category term="信息学相关" scheme="/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>听一首歌吧：3</title>
+    <link href="/posts/b78ead27/"/>
+    <id>/posts/b78ead27/</id>
+    <published>2020-05-10T16:00:00.000Z</published>
+    <updated>2020-05-19T09:37:01.936Z</updated>
+    
+    <summary type="html">
+    
+      坂本龙一。
+    
+    </summary>
+    
+    
+      <category term="音乐" scheme="/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小感想：读「巨龙的胎动」</title>
+    <link href="/posts/5b05025e/"/>
+    <id>/posts/5b05025e/</id>
+    <published>2020-05-07T16:00:00.000Z</published>
+    <updated>2020-05-19T09:37:01.940Z</updated>
+    
+    <summary type="html">
+    
+      应当采纳国内国外观点，以集结所长。
+    
+    </summary>
+    
+    
+      <category term="历史" scheme="/tags/%E5%8E%86%E5%8F%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为Jekyll Blog添加一个可爱的看板喵：适用于hux主题</title>
+    <link href="/posts/acd8770e/"/>
+    <id>/posts/acd8770e/</id>
+    <published>2020-05-06T16:00:00.000Z</published>
+    <updated>2020-05-19T09:37:01.937Z</updated>
+    
+    <summary type="html">
+    
+      也可以是看板娘（
+    
+    </summary>
+    
+    
+      <category term="信息学相关" scheme="/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>北海道随拍</title>
+    <link href="/posts/e3d9082b/"/>
+    <id>/posts/e3d9082b/</id>
+    <published>2020-05-05T16:00:00.000Z</published>
+    <updated>2020-05-19T09:37:01.938Z</updated>
+    
+    <summary type="html">
+    
+      发送自一年前。今年可能出不去了，好怀念。
+    
+    </summary>
+    
+    
+      <category term="旅游" scheme="/tags/%E6%97%85%E6%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>黑苹果版本升级的一些坑</title>
+    <link href="/posts/c949870/"/>
+    <id>/posts/c949870/</id>
+    <published>2020-05-04T16:00:00.000Z</published>
+    <updated>2020-05-19T09:37:01.939Z</updated>
+    
+    <summary type="html">
+    
+      只说遇到的一些坑。
+    
+    </summary>
+    
+    
+      <category term="信息学相关" scheme="/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>鸟枪换炮——在Jekyll Blog上部署aplayer</title>
+    <link href="/posts/baae5b4f/"/>
+    <id>/posts/baae5b4f/</id>
+    <published>2020-05-03T16:00:00.000Z</published>
+    <updated>2020-05-19T09:37:01.932Z</updated>
+    
+    <summary type="html">
+    
+      点进来，我们一起康康。
+    
+    </summary>
+    
+    
+      <category term="信息学相关" scheme="/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在家学习与偏科</title>
+    <link href="/posts/4ab40476/"/>
+    <id>/posts/4ab40476/</id>
+    <published>2020-04-25T16:00:00.000Z</published>
+    <updated>2020-05-19T09:37:01.928Z</updated>
+    
+    <summary type="html">
+    
+      脱离监管后便是兴趣使然。
+    
+    </summary>
+    
+    
+      <category term="学习" scheme="/tags/%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一个让人哭笑不得的错误</title>
+    <link href="/posts/d27340a4/"/>
+    <id>/posts/d27340a4/</id>
+    <published>2020-04-24T16:00:00.000Z</published>
+    <updated>2020-05-19T09:37:01.935Z</updated>
+    
+    <summary type="html">
+    
+      我就是傻（苦笑
+    
+    </summary>
+    
+    
+      <category term="信息学相关" scheme="/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>听一首歌吧。</title>
+    <link href="/posts/551e74a6/"/>
+    <id>/posts/551e74a6/</id>
+    <published>2020-04-23T16:00:00.000Z</published>
+    <updated>2020-05-19T09:37:01.929Z</updated>
+    
+    <summary type="html">
+    
+      点进来听歌。
+    
+    </summary>
+    
+    
+      <category term="杂" scheme="/tags/%E6%9D%82/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Github Pages和Jekyll搭建博客走过的一些弯路</title>
+    <link href="/posts/e96591cb/"/>
+    <id>/posts/e96591cb/</id>
+    <published>2020-04-20T16:00:00.000Z</published>
+    <updated>2020-05-19T09:37:01.924Z</updated>
+    
+    <summary type="html">
+    
+      一些头疼的事情：D
+    
+    </summary>
+    
+      <category term="信息学相关" scheme="/categories/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
+    
+    
+      <category term="信息学相关" scheme="/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于石敬瑭世系的简单考证</title>
+    <link href="/posts/ddc75c33/"/>
+    <id>/posts/ddc75c33/</id>
+    <published>2020-04-19T16:00:00.000Z</published>
+    <updated>2020-05-19T09:37:01.922Z</updated>
+    
+    <summary type="html">
+    
+      翻翻故纸堆而已。
+    
+    </summary>
+    
+      <category term="历史" scheme="/categories/%E5%8E%86%E5%8F%B2/"/>
+    
+    
+      <category term="历史" scheme="/tags/%E5%8E%86%E5%8F%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安装Vue教程</title>
+    <link href="/posts/7055/"/>
+    <id>/posts/7055/</id>
+    <published>2019-04-26T09:29:22.000Z</published>
+    <updated>2020-02-26T04:37:49.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="自学教程" scheme="/categories/%E8%87%AA%E5%AD%A6%E6%95%99%E7%A8%8B/"/>
+    
+    
+  </entry>
+  
+</feed>
