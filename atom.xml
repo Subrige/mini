@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2020-05-20T09:20:06.611Z</updated>
+  <updated>2020-05-25T01:42:13.013Z</updated>
   <id>/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>年轻人的第一台iPad Pro</title>
+    <link href="/2020/05/25/2020-5-25-iPadPro/"/>
+    <id>/2020/05/25/2020-5-25-iPadPro/</id>
+    <published>2020-05-25T08:00:00.000Z</published>
+    <updated>2020-05-25T01:42:13.013Z</updated>
+    
+    <summary type="html">
+    
+      鸡冻。
+    
+    </summary>
+    
+    
+      <category term="杂" scheme="/tags/%E6%9D%82/"/>
+    
+  </entry>
   
   <entry>
     <title>拥抱自然</title>
@@ -26,24 +44,6 @@
     <summary type="html">
     
       我想拥抱砾石堆，封冻的河流，高原的地被。
-    
-    </summary>
-    
-    
-      <category term="杂" scheme="/tags/%E6%9D%82/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>年轻人的第一台iPad Pro</title>
-    <link href="/2020/05/19/2020-5-25-iPadPro/"/>
-    <id>/2020/05/19/2020-5-25-iPadPro/</id>
-    <published>2020-05-19T08:00:00.000Z</published>
-    <updated>2020-05-25T01:38:06.382Z</updated>
-    
-    <summary type="html">
-    
-      鸡冻。
     
     </summary>
     
