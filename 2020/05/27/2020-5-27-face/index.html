@@ -1,0 +1,121 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta name="generator" content="Hexo 3.9.0"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"><title>记第一次面基经历 | 稚 的博客</title><meta name="description" content="蛮尴尬的。"><meta name="keywords" content="杂"><meta name="author" content="稚"><meta name="copyright" content="稚"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="https://tva1.sinaimg.cn/large/007S8ZIlly1gexj9fvcxdj30u20u0n2z.jpg"><link rel="preconnect" href="//cdn.jsdelivr.net"><link rel="preconnect" href="https://hm.baidu.com"><link rel="preconnect" href="https://fonts.googleapis.com" crossorigin><link rel="preconnect" href="//busuanzi.ibruce.info"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="记第一次面基经历"><meta name="twitter:description" content="蛮尴尬的。"><meta name="twitter:image" content="https://tva1.sinaimg.cn/large/007S8ZIlly1gf73hdfrbbj30jg0azdq4.jpg"><meta property="og:type" content="article"><meta property="og:title" content="记第一次面基经历"><meta property="og:url" content="/2020/05/27/2020-5-27-face/"><meta property="og:site_name" content="稚 的博客"><meta property="og:description" content="蛮尴尬的。"><meta property="og:image" content="https://tva1.sinaimg.cn/large/007S8ZIlly1gf73hdfrbbj30jg0azdq4.jpg"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script src="https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js"></script><script>const autoChangeMode = 'false'
+var t = Cookies.get("theme");
+if (autoChangeMode == '1'){
+const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches
+const isLightMode = window.matchMedia("(prefers-color-scheme: light)").matches
+const isNotSpecified = window.matchMedia("(prefers-color-scheme: no-preference)").matches
+const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+if (t === undefined){
+  if (isLightMode) activateLightMode()
+  else if (isDarkMode) activateDarkMode()
+  else if (isNotSpecified || hasNoSupport){
+    console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+    now = new Date();
+    hour = now.getHours();
+    isNight = hour < 6 || hour >= 18
+    isNight ? activateDarkMode() : activateLightMode()
+}
+} else if (t == 'light') activateLightMode()
+else activateDarkMode()
+
+
+} else if (autoChangeMode == '2'){
+  now = new Date();
+  hour = now.getHours();
+  isNight = hour < 6 || hour >= 18
+  if(t === undefined) isNight? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode() 
+} else {
+  if ( t == 'dark' ) activateDarkMode()
+  else if ( t == 'light') activateLightMode()
+}
+
+function activateDarkMode(){
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+    document.querySelector('meta[name="theme-color"]').setAttribute('content','#000')
+  }
+}
+function activateLightMode(){
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null){
+  document.querySelector('meta[name="theme-color"]').setAttribute('content','#fff')
+  }
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css"><link rel="stylesheet" href="https://unpkg.com/nprogress@0.2.0/nprogress.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="canonical" href="/2020/05/27/2020-5-27-face/"><link rel="next" title="年轻人的第一台iPad Pro" href="/2020/05/25/2020-5-25-iPadPro/"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css"><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js" defer></script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?5b874ff31c774f84986f0eebaa97265a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web"><!--include ./config.pug--><link rel="stylesheet" href="/assets/css/APlayer.min.css" class="aplayer-style-marker">
+<script src="/assets/js/APlayer.min.js" class="aplayer-script-marker"></script>
+<script src="/assets/js/Meting.min.js" class="meting-script-marker"></script>
+</head><body><canvas class="fireworks"></canvas><header> <div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="/">稚 的博客</a></span><span class="toggle-menu pull_right close"><a class="site-page"><i class="fa fa-bars fa-fw" aria-hidden="true"></i></a></span><span class="pull_right menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友人帐</span></a></div><div class="menus_item"><a class="site-page" href="/comment"><i class="fa-fw fa fa-commenting-o"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-info"></i><span> 关于</span></a></div></div></span><span class="pull_right" id="search_button"><a class="site-page social-icon search"><i class="fa fa-search fa-fw"></i><span> 搜索</span></a></span></div></header><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" src="https://tva1.sinaimg.cn/large/007S8ZIlly1gexj9fvcxdj30u20u0n2z.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">18</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">6</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">2</div></a></div></div></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fa fa-link"></i><span> 友人帐</span></a></div><div class="menus_item"><a class="site-page" href="/comment"><i class="fa-fw fa fa-commenting-o"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa fa-info"></i><span> 关于</span></a></div></div></div><div id="mobile-sidebar-toc"><div class="toc_mobile_headline">目录</div><div class="sidebar-toc__content"></div></div></div><div id="body-wrap"><div id="web_bg" data-type="color"></div><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true">     </i><div class="auto_open" id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"></div></div></div><main id="content-outer"><div id="top-container" style="background-image: url(https://tva1.sinaimg.cn/large/007S8ZIlly1gf73hdfrbbj30jg0azdq4.jpg)"><div id="post-info"><div id="post-title"><div class="posttitle">记第一次面基经历</div></div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i> 发表于 2020-05-27<span class="post-meta__separator">|</span><i class="fa fa-history fa-fw" aria-hidden="true"></i> 更新于 2020-05-27</time><div class="post-meta-wordcount"><i class="fa fa-file-word-o post-meta__icon fa-fw" aria-hidden="true"></i><span>字数总计:</span><span class="word-count">785</span><span class="post-meta__separator">|</span><i class="fa fa-clock-o post-meta__icon fa-fw" aria-hidden="true"></i><span>阅读时长: 2 分钟</span><div class="post-meta-pv-cv"><span class="post-meta__separator">|</span><span><i class="fa fa-eye post-meta__icon fa-fw" aria-hidden="true"> </i>阅读量:</span><span id="busuanzi_value_page_pv"></span><span class="post-meta__separator">|</span><i class="fa fa-comments-o post-meta__icon fa-fw" aria-hidden="true"></i><span>评论数:</span><a href="/2020/05/27/2020-5-27-face/#post-comment" itemprop="discussionUrl"><span class="valine-comment-count comment-count" data-xid="/2020/05/27/2020-5-27-face/" itemprop="commentCount"></span></a></div></div></div></div></div><div class="layout layout_post" id="content-inner">   <article id="post"><div class="article-container" id="post-content">
+    <div id="aplayer-kdywRRvw" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="29719727" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#49A6F9" data-volume="0.5"></div>
+<p>就简单记录一下第一次的面基经历，在2019年的8月，感觉不记录一下都要忘掉了。</p>
+<p>面基前一天在QQ里发了一条说说，刚好那天所有的课都结了，就问一下哪一天有人在北京…有时间就出来面个基啊什么的。就有一位朋友主动和我联系，说可以面基。我自然是十分高兴的，就答应了。约好了看一场电影。</p>
+<p>以下简称为M。</p>
+<p>一开始还是蛮紧张的，还提前把明天要穿的衣服给准备好了，取来洗了。但极其尴尬，忘了把衣服晾了…于是就只能穿上一件衣服，仓促出行。</p>
+<p>不得不感叹，北京的夏天就是桑拿天啊。其实强烈的阳光都是次的，浓浓的水汽更让人讨厌。</p>
+<p>目的地离家比较近，坐了一两站就到了，没想到对方比我来的更早——谈到这里，总感觉有点愧疚感。M说没事，她先在M记吃个饭。…这也是一个遗憾吧。</p>
+<p>总之总之算是到了，就在影院门口见面。看到对方，我们似乎都迟疑了很久，可能感觉和网上的形象都不太一样吧 :(</p>
+<p>之前以为可以仗着自己辈分大…<del>没错就是仗着自己辈分大</del>带她在金源里玩玩，毕竟我对金源也算熟悉，但是一见面就被愣住了（被愣住了），后面就跟着她一起玩了，感觉像小弟一样。也不知道是某种原因，我跟人家说话一直都是十分客气的样子，我也不知道为什么这么客气…就这样，两个人的距离就被拉长了。</p>
+<p>可能是因为这个的缘故，感觉两个人接触一直到后面都挺尴尬的<del>啊啊啊啊啊啊写到这里感觉尴尬感都要溢出了呜呜呜呜呜</del></p>
+<p>她是个太鼓玩家，刚好金源有一个游戏厅，就进去打太鼓啦。我之前没有玩过太鼓，感觉打得很烂。全程都是她一直在教我玩，然而我打的还是像一坨翔一样…可能的确是我天赋不足吧。</p>
+<p>后来，电影还是没开始，就在电影院厅前点了两杯饮料，坐着，两个人玩手机，也没说什么话。中间有很多次想要和她说话…但总是欲言又止，我想对方也是这样吧。</p>
+<p>再后来就进了电影厅。我想还是走路的时候更容易张开嘴说话。</p>
+<p>看完电影就出来了。真是尴尬，我感觉M还想要挽留一下来着。但…大概是感觉聊下去只会更尴尬吧，就找了个理由走了。</p>
+<p>唉…的确是一次失败的面基经历。其实错误主要在我这里，怎么在网上这么话唠的人线下说话就这么结结巴巴呢…总之就是这样了。感觉，浪费了M一个下午的时间也很对不起她。</p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">稚</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="/2020/05/27/2020-5-27-face/">/2020/05/27/2020-5-27-face/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href>稚 的博客</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/杂/">杂    </a></div><div class="post_share"><div class="social-share" data-image="https://tva1.sinaimg.cn/large/007S8ZIlly1gf73hdfrbbj30jg0azdq4.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js"></script></div></div><nav class="pagination_post" id="pagination"><div class="next-post pull-full"><a href="/2020/05/25/2020-5-25-iPadPro/"><img class="next_cover lazyload" data-src="https://tva1.sinaimg.cn/large/007S8ZIlly1gf4fgb1hz3j31sz0u0npi.jpg" onerror="onerror=null;src='/img/404.jpg'"><div class="label">下一篇</div><div class="next_info"><span>年轻人的第一台iPad Pro</span></div></a></div></nav><hr><div id="post-comment"><div class="comment_headling"><i class="fa fa-comments fa-fw" aria-hidden="true"></i><span> 评论</span></div><div class="vcomment" id="vcomment"></div><script src="https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script><script>var notify = false == true ? true : false;
+var verify = false == true ? true : false;
+var GUEST_INFO = ['nick','mail','link'];
+var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+  return GUEST_INFO.indexOf(item) > -1
+});
+guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+
+window.valine = new Valine({
+  el:'#vcomment',
+  notify:notify,
+  verify:verify,
+  appId:'oPDyS4JMQVJKLffa1a5kDqMd-gzGzoHsz',
+  appKey:'JWUWNlOjCuWJ7my0X4H0CfwH',
+  placeholder:'记得留下你的昵称和邮箱...可以快速收到回复',
+  avatar:'monsterid',
+  guest_info:guest_info,
+  pageSize:'10',
+  lang:'zh-cn',
+  recordIP: true
+});</script></div></div></main></div><div class="js-Pjax"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: {"appId":"7IK9Y03TOT","apiKey":"11a4d9905a34ae8fc50b2e802e118626","indexName":"hexoblog","hits":{"per_page":6},"languages":{"input_placeholder":"搜索文章","hits_empty":"找不到您查询的内容:${query}","hits_stats":"找到 ${hits} 条结果，用时 ${time} 毫秒"}},
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"cookieDomain":"https://xxx/","msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简"},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    title: 'Snackbar.bookmark.title',
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  baiduPush: false,
+  isHome: false,
+  isPost: true
+  
+}</script></div><footer id="footer" style="background-image: url(https://tva1.sinaimg.cn/large/007S8ZIlly1gf73hdfrbbj30jg0azdq4.jpg)" data-type="photo"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2020 By 稚</div><div class="framework-info"><span>驱动 </span><a href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly"><span>Butterfly</span></a></div></div></footer><section class="rightside" id="rightside"><div id="rightside-config-hide"><i class="fa fa-book" id="readmode" title="阅读模式"></i><i class="fa fa-plus" id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><a class="translate_chn_to_cht" id="translateLink" href="javascript:translatePage();" title="简繁转换" target="_self">繁</a><i class="darkmode fa fa-moon-o" id="darkmode" title="夜间模式"></i></div><div id="rightside-config-show"><div id="rightside_config" title="设置"><i class="fa fa-cog" aria-hidden="true"></i></div><a id="to_comment" href="#post-comment" title="直达评论"><i class="scroll_to_comment fa fa-comments">  </i></a><i class="fa fa-list-ul close" id="mobile-toc-button" title="目录" aria-hidden="true"></i><i class="fa fa-arrow-up" id="go-up" title="回到顶部" aria-hidden="true"></i></div></section><!-- 加载页面独有js--><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><!-- 加载页面独有js--><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.js"></script><!-- 加载页面独有js--><script src="/js/utils.js"></script><!-- 加载页面独有js--><script src="/js/main.js"></script><!-- 加载页面独有js--><!--if (page.type === 'movies' data-pjax)--><script src="/js/movies.js" data-pjax></script><!-- 加载页面独有js--><script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js"></script><!-- 加载页面独有js--><script src="https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js"></script><!-- 加载页面独有js--><script src="//at.alicdn.com/t/font_1618098_qqhczwrs5ti.js"></script><!-- 加载页面独有js--><script src="//layui.hcwl520.com.cn/layer/layer.js"></script><!-- 加载页面独有js--><script src="https://unpkg.com/nprogress@0.2.0/nprogress.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/fireworks.js"></script><script id="ribbon" src="https://cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/canvas-ribbon.js" size="150" alpha="0.6" zindex="-1" mobile="false" data-click="true"></script><script src="/js/activate-power-mode.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false; 
+document.body.addEventListener('input', POWERMODE);
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js" async></script><div class="search-dialog" id="algolia-search"><div class="search-dialog__title" id="algolia-search-title">Algolia</div><div id="algolia-input-panel"><div id="algolia-search-input"></div></div><hr><div id="algolia-search-results"><div id="algolia-hits"></div><div id="algolia-pagination"></div><div id="algolia-stats"></div></div><span class="search-close-button"><i class="fa fa-times"></i></span></div><div class="search-mask"></div><div class="aplayer" data-id="138885475" data-server="netease" data-type="playlist" data-fixed="true" data-order="list" data-preload="none" data-loop="all"></div></body></html>
