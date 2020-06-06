@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>稚 的博客</title>
+  <title>Subrige&#39;s Blog</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="/"/>
-  <updated>2020-05-27T08:37:46.782Z</updated>
+  <updated>2020-06-06T08:54:10.680Z</updated>
   <id>/</id>
   
   <author>
@@ -17,11 +17,29 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>网络对我</title>
+    <link href="/2020/06/04/2020-6-24-internet/"/>
+    <id>/2020/06/04/2020-6-24-internet/</id>
+    <published>2020-06-04T08:00:00.000Z</published>
+    <updated>2020-06-06T08:54:10.680Z</updated>
+    
+    <summary type="html">
+    
+      陪我走过了最艰难的一段时光。
+    
+    </summary>
+    
+    
+      <category term="杂" scheme="/tags/%E6%9D%82/"/>
+    
+  </entry>
+  
+  <entry>
     <title>记第一次面基经历</title>
     <link href="/2020/05/27/2020-5-27-face/"/>
     <id>/2020/05/27/2020-5-27-face/</id>
     <published>2020-05-27T08:00:00.000Z</published>
-    <updated>2020-05-27T08:37:46.782Z</updated>
+    <updated>2020-06-06T08:54:02.688Z</updated>
     
     <summary type="html">
     
@@ -39,7 +57,7 @@
     <link href="/2020/05/25/2020-5-25-iPadPro/"/>
     <id>/2020/05/25/2020-5-25-iPadPro/</id>
     <published>2020-05-25T08:00:00.000Z</published>
-    <updated>2020-05-25T01:42:13.013Z</updated>
+    <updated>2020-06-06T08:53:56.595Z</updated>
     
     <summary type="html">
     
@@ -57,7 +75,7 @@
     <link href="/2020/05/19/2020-5-19-nature/"/>
     <id>/2020/05/19/2020-5-19-nature/</id>
     <published>2020-05-19T08:00:00.000Z</published>
-    <updated>2020-05-20T09:20:06.611Z</updated>
+    <updated>2020-06-06T08:53:47.834Z</updated>
     
     <summary type="html">
     
@@ -75,7 +93,7 @@
     <link href="/2020/05/18/2020-5-18-death/"/>
     <id>/2020/05/18/2020-5-18-death/</id>
     <published>2020-05-18T08:00:00.000Z</published>
-    <updated>2020-05-20T09:20:08.902Z</updated>
+    <updated>2020-06-06T08:53:40.027Z</updated>
     
     <summary type="html">
     
@@ -93,7 +111,7 @@
     <link href="/2020/05/13/2020-5-14-merry/"/>
     <id>/2020/05/13/2020-5-14-merry/</id>
     <published>2020-05-13T08:00:00.000Z</published>
-    <updated>2020-05-20T09:21:02.450Z</updated>
+    <updated>2020-06-06T08:53:30.368Z</updated>
     
     <summary type="html">
     
@@ -111,7 +129,7 @@
     <link href="/2020/05/13/2020-5-13-%E5%8D%96%E7%B1%B3/"/>
     <id>/2020/05/13/2020-5-13-卖米/</id>
     <published>2020-05-13T04:00:00.000Z</published>
-    <updated>2020-05-20T09:21:02.449Z</updated>
+    <updated>2020-06-06T08:53:21.617Z</updated>
     
     <summary type="html">
     
@@ -129,7 +147,7 @@
     <link href="/2020/05/11/2020-5-11-hexo/"/>
     <id>/2020/05/11/2020-5-11-hexo/</id>
     <published>2020-05-11T04:00:00.000Z</published>
-    <updated>2020-05-20T09:21:02.448Z</updated>
+    <updated>2020-06-06T08:53:13.188Z</updated>
     
     <summary type="html">
     
@@ -147,7 +165,7 @@
     <link href="/2020/05/11/2020-5-10-%E5%9D%82%E6%9C%AC%E9%BE%99%E4%B8%80/"/>
     <id>/2020/05/11/2020-5-10-坂本龙一/</id>
     <published>2020-05-10T16:00:00.000Z</published>
-    <updated>2020-05-20T09:21:02.448Z</updated>
+    <updated>2020-06-06T08:53:03.286Z</updated>
     
     <summary type="html">
     
@@ -165,7 +183,7 @@
     <link href="/2020/05/08/2020-5-8-%E5%B7%A8%E9%BE%99%E7%9A%84%E8%83%8E%E5%8A%A8/"/>
     <id>/2020/05/08/2020-5-8-巨龙的胎动/</id>
     <published>2020-05-07T16:00:00.000Z</published>
-    <updated>2020-05-20T09:21:02.453Z</updated>
+    <updated>2020-06-06T08:52:51.843Z</updated>
     
     <summary type="html">
     
@@ -183,7 +201,7 @@
     <link href="/2020/05/07/2020-5-7-live2d/"/>
     <id>/2020/05/07/2020-5-7-live2d/</id>
     <published>2020-05-06T16:00:00.000Z</published>
-    <updated>2020-05-20T09:21:02.452Z</updated>
+    <updated>2020-06-06T08:52:42.050Z</updated>
     
     <summary type="html">
     
@@ -201,7 +219,7 @@
     <link href="/2020/05/06/2020-5-6-%E5%8C%97%E6%B5%B7%E9%81%93/"/>
     <id>/2020/05/06/2020-5-6-北海道/</id>
     <published>2020-05-05T16:00:00.000Z</published>
-    <updated>2020-05-20T09:21:02.452Z</updated>
+    <updated>2020-06-06T08:52:29.655Z</updated>
     
     <summary type="html">
     
@@ -219,7 +237,7 @@
     <link href="/2020/05/05/2020-5-5-Clover-configurator/"/>
     <id>/2020/05/05/2020-5-5-Clover-configurator/</id>
     <published>2020-05-04T16:00:00.000Z</published>
-    <updated>2020-05-20T09:21:02.451Z</updated>
+    <updated>2020-06-06T08:52:17.377Z</updated>
     
     <summary type="html">
     
@@ -237,7 +255,7 @@
     <link href="/2020/05/04/2020-5-4-%E9%B8%9F%E6%9E%AA%E6%8D%A2%E7%82%AE/"/>
     <id>/2020/05/04/2020-5-4-鸟枪换炮/</id>
     <published>2020-05-03T16:00:00.000Z</published>
-    <updated>2020-05-20T09:21:02.451Z</updated>
+    <updated>2020-06-06T08:52:04.129Z</updated>
     
     <summary type="html">
     
@@ -255,7 +273,7 @@
     <link href="/2020/04/26/2020-4-26-%E5%9C%A8%E5%AE%B6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%81%8F%E7%A7%91/"/>
     <id>/2020/04/26/2020-4-26-在家学习与偏科/</id>
     <published>2020-04-25T16:00:00.000Z</published>
-    <updated>2020-05-20T09:20:36.154Z</updated>
+    <updated>2020-06-06T08:51:55.146Z</updated>
     
     <summary type="html">
     
@@ -273,7 +291,7 @@
     <link href="/2020/04/25/2020-4-25-%E4%B8%80%E4%B8%AA%E8%AE%A9%E4%BA%BA%E5%93%AD%E7%AC%91%E4%B8%8D%E5%BE%97%E7%9A%84%E9%94%99%E8%AF%AF/"/>
     <id>/2020/04/25/2020-4-25-一个让人哭笑不得的错误/</id>
     <published>2020-04-24T16:00:00.000Z</published>
-    <updated>2020-05-20T09:21:02.446Z</updated>
+    <updated>2020-06-06T08:51:41.026Z</updated>
     
     <summary type="html">
     
@@ -291,7 +309,7 @@
     <link href="/2020/04/24/2020-4-24-%E5%90%AC%E4%B8%80%E9%A6%96%E6%AD%8C%E5%90%A7/"/>
     <id>/2020/04/24/2020-4-24-听一首歌吧/</id>
     <published>2020-04-23T16:00:00.000Z</published>
-    <updated>2020-05-20T09:21:02.446Z</updated>
+    <updated>2020-06-06T08:51:37.479Z</updated>
     
     <summary type="html">
     
@@ -329,7 +347,7 @@
     <link href="/2020/04/20/2020-4-20-%E5%85%B3%E4%BA%8E%E7%9F%B3%E6%95%AC%E7%91%AD%E4%B8%96%E7%B3%BB%E7%9A%84%E7%AE%80%E5%8D%95%E8%80%83%E8%AF%81/"/>
     <id>/2020/04/20/2020-4-20-关于石敬瑭世系的简单考证/</id>
     <published>2020-04-19T16:00:00.000Z</published>
-    <updated>2020-05-20T09:21:02.444Z</updated>
+    <updated>2020-06-06T08:51:24.903Z</updated>
     
     <summary type="html">
     
@@ -341,6 +359,28 @@
     
     
       <category term="历史" scheme="/tags/%E5%8E%86%E5%8F%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo-Theme-Sakura</title>
+    <link href="/2018/12/12/Hexo-Theme-Sakura/"/>
+    <id>/2018/12/12/Hexo-Theme-Sakura/</id>
+    <published>2018-12-12T14:16:01.000Z</published>
+    <updated>2020-06-06T08:54:34.860Z</updated>
+    
+    <summary type="html">
+    
+      hexo-sakura主题使用教程
+    
+    </summary>
+    
+      <category term="技术" scheme="/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="web" scheme="/tags/web/"/>
+    
+      <category term="悦读" scheme="/tags/%E6%82%A6%E8%AF%BB/"/>
     
   </entry>
   
