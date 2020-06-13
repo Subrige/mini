@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://subrige.xyz/"/>
-  <updated>2020-06-13T11:23:34.853Z</updated>
+  <updated>2020-06-13T14:35:54.623Z</updated>
   <id>https://subrige.xyz/</id>
   
   <author>
@@ -17,11 +17,29 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>乡巴佬开箱：年轻人的第一双Airpods</title>
+    <link href="https://subrige.xyz/2020/06/13/2020-6-14-airpods/"/>
+    <id>https://subrige.xyz/2020/06/13/2020-6-14-airpods/</id>
+    <published>2020-06-13T11:00:00.000Z</published>
+    <updated>2020-06-13T14:35:54.623Z</updated>
+    
+    <summary type="html">
+    
+      鸡冻鸡冻。
+    
+    </summary>
+    
+    
+      <category term="信息学相关" scheme="https://subrige.xyz/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
+    
+  </entry>
+  
+  <entry>
     <title>为你博客的valine评论系统添加回复邮件提醒</title>
     <link href="https://subrige.xyz/2020/06/13/2020-6-13-valine/"/>
     <id>https://subrige.xyz/2020/06/13/2020-6-13-valine/</id>
     <published>2020-06-13T11:00:00.000Z</published>
-    <updated>2020-06-13T11:23:34.853Z</updated>
+    <updated>2020-06-13T14:06:25.487Z</updated>
     
     <summary type="html">
     
@@ -30,7 +48,7 @@
     </summary>
     
     
-      <category term="杂" scheme="https://subrige.xyz/tags/%E6%9D%82/"/>
+      <category term="信息学相关" scheme="https://subrige.xyz/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
     
   </entry>
   
@@ -357,26 +375,6 @@
     
     
       <category term="信息学相关" scheme="https://subrige.xyz/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于石敬瑭世系的简单考证</title>
-    <link href="https://subrige.xyz/2020/04/20/2020-4-20-%E5%85%B3%E4%BA%8E%E7%9F%B3%E6%95%AC%E7%91%AD%E4%B8%96%E7%B3%BB%E7%9A%84%E7%AE%80%E5%8D%95%E8%80%83%E8%AF%81/"/>
-    <id>https://subrige.xyz/2020/04/20/2020-4-20-关于石敬瑭世系的简单考证/</id>
-    <published>2020-04-19T16:00:00.000Z</published>
-    <updated>2020-06-13T08:58:10.446Z</updated>
-    
-    <summary type="html">
-    
-      翻翻故纸堆而已。
-    
-    </summary>
-    
-      <category term="历史" scheme="https://subrige.xyz/categories/%E5%8E%86%E5%8F%B2/"/>
-    
-    
-      <category term="历史" scheme="https://subrige.xyz/tags/%E5%8E%86%E5%8F%B2/"/>
     
   </entry>
   
