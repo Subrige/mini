@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">听一首歌吧：4 | Subrige&#39;s Blog</title>
+  <title itemprop="name">Pjax vs Aplayer | Subrige&#39;s Blog</title>
   
     <link rel="shortcut icon" href="https://tva1.sinaimg.cn/large/007S8ZIlly1gexj9fvcxdj30u20u0n2z.jpg">
   
@@ -59,9 +59,6 @@
   </style>
   <style type="text/css">.site-top .lower nav{display:block !important;}.author-profile i,.post-like a,.post-share .show-share,.sub-text,.we-info a,span.sitename,.post-more i:hover,#pagination a:hover,.post-content a:hover,.float-content i:hover{color:#FE9600}.feature i,.download,.navigator i:hover,.links ul li:before,.ar-time i,span.ar-circle,.object,.comment .comment-reply-link,.siren-checkbox-radio:checked + .siren-checkbox-radioInput:after{background:#FE9600}::-webkit-scrollbar-thumb{background:#FE9600}.download,.navigator i:hover,.link-title,.links ul li:hover,#pagination a:hover,.comment-respond input[type='submit']:hover{border-color:#FE9600}.entry-content a:hover,.site-info a:hover,.comment h4 a,#comments-navi a.prev,#comments-navi a.next,.comment h4 a:hover,.site-top ul li a:hover,.entry-title a:hover,#archives-temp h3,span.page-numbers.current,.sorry li a:hover,.site-title a:hover,i.iconfont.js-toggle-search.iconsearch:hover,.comment-respond input[type='submit']:hover{color:#FE9600}.comments .comments-main{display:block !important;}.comments .comments-hidden{display:none !important;}background-position:center center;background-attachment:inherit;}
   </style>
-<link rel="stylesheet" href="/assets/css/APlayer.min.css" class="aplayer-style-marker">
-<script src="/assets/js/APlayer.min.js" class="aplayer-script-marker"></script>
-<script src="/assets/js/Meting.min.js" class="meting-script-marker"></script>
 </head>
 </html>
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
@@ -310,11 +307,11 @@
 
   <div class="pattern-center single-center">
     <!-- 有配图默认渲染第一张 -->
-    <div class="pattern-attachment-img lazyload" style="background-image: url(https://tva1.sinaimg.cn/large/007S8ZIlly1ger3nbpsaij30dw0dwgmj.jpg);" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://tva1.sinaimg.cn/large/007S8ZIlly1ger3nbpsaij30dw0dwgmj.jpg">
+    <div class="pattern-attachment-img lazyload" style="background-image: url(https://tva1.sinaimg.cn/large/007S8ZIlly1gfrjy968bhj314e0qegr5.jpg);" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfrjy968bhj314e0qegr5.jpg">
     </div>
     <header class="pattern-header single-header">
       <h1 class="entry-title">
-      听一首歌吧：4</h1>
+      Pjax vs Aplayer</h1>
       <p class="entry-census">
         <span>
           <a href="">
@@ -326,7 +323,7 @@
         </span>
         <span class="bull">
         ·</span>
-        2020-5-13<span class="bull">
+        2020-6-14<span class="bull">
         ·</span>
       <span id="busuanzi_value_page_pv"></span>次阅读</p>
     </header>
@@ -340,11 +337,20 @@
         <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
         
         <div class="entry-content">
-          
-    <div id="aplayer-ybJZBryo" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="000FE0sV2U5b4b" data-server="tencent" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#49A6F9" data-volume="0.5"></div>
-<p>就这些。只不过是单纯的觉得好听，想要借此机会分享一下而已。</p>
-<p>高潮简直是神来之笔，切入人的内心。</p>
-<p>晚安。</p>
+          <blockquote>
+<p>你是否能在无刷新加载的情况下看到这首音乐？</p>
+</blockquote>
+<p><meting-js server="tencent" type="song" id="000WTg6A1we7Dn" mutex="true"><br></meting-js></p>
+<p>无刷新加载加载不出播放器这个问题主要是因为hexo-tag-aplayer，虽然不太清楚是什么原理吧，这个js插件不在pjax的刷新list中。但网站的歌单页可以加载正常的metingjs,aplayer插件。主要是这里的不同：</p>
+<p><code>{/% meting &quot; &quot; &quot; &quot; &quot; &quot; &quot;volume:0.5&quot; &quot;theme:#49A6F9&quot; %/}</code></p>
+<p>这是hexo-tag-aplayer的载入方式。(请删除’%’和’}’之间的注释符)</p>
+<p><code>&lt;meting-js
+  server=&quot; &quot;
+  type=&quot; &quot;
+  id=&quot; &quot;
+  mutex=&quot;true&quot;&gt;</code><br><code>&lt;/meting-js&gt;</code></p>
+<p>这是歌单页的载入方式。</p>
+<p>将文章页（hexo-tag-aplayer）的载入方式改为歌单页面的载入方式（如上）即可解决问题。</p>
 
         </div>
         <!-- .entry-content -->
@@ -373,36 +379,19 @@
       <div class="toc" style="background: none;"></div>
       <section class="post-squares nextprev">
         
-          
-            <div class="post-nepre half previous">
-          
-            <a href="/2020/05/18/2020-5-18-death/" rel="prev">
-              <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://tva1.sinaimg.cn/large/007S8ZIlly1gewbese7gtj30u00gvq4b.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://tva1.sinaimg.cn/large/007S8ZIlly1gewbese7gtj30u00gvq4b.jpg">
-              </div>
-              <span class="label">
-              Previous Post</span>
-              <div class="info">
-                <h3>
-                死亡的恐惧</h3>
-                <hr>
-              </div>
-            </a>
-          </div>
-        
         
           
-            <div class="post-nepre half next">
+            <div class="post-nepre full next">
           
-            <a href="/2020/05/13/2020-5-13-卖米/" rel="next">
+            <a href="/2020/06/13/2020-6-13-valine/" rel="next">
               <div class="background">
-                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://tva1.sinaimg.cn/large/007S8ZIlly1geqxui5nvtj30p00dwq5f.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://tva1.sinaimg.cn/large/007S8ZIlly1geqxui5nvtj30p00dwq5f.jpg">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfqvtfk936j30bu03emxd.jpg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://tva1.sinaimg.cn/large/007S8ZIlly1gfqvtfk936j30bu03emxd.jpg">
               </div>
               <span class="label">
               Next Post</span>
               <div class="info">
                 <h3>
-                转载：卖米</h3>
+                为你博客的valine评论系统添加回复邮件提醒</h3>
                 <hr>
               </div>
             </a>
