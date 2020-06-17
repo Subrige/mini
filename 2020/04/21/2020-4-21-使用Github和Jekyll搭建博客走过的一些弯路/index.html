@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+
+
+  <html class="light page-post">
+
+
+<head>
+  <meta charset="utf-8">
+  
+  <title>使用Github Pages和Jekyll搭建博客走过的一些弯路 | tigerose&#39;s site</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+    <meta name="keywords" content="信息学相关," />
+  
+
+  <meta name="description" content="一些头疼的事情：D">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用Github Pages和Jekyll搭建博客走过的一些弯路">
+<meta property="og:url" content="http://yoursite.com/2020/04/21/2020-4-21-%E4%BD%BF%E7%94%A8Github%E5%92%8CJekyll%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%B5%B0%E8%BF%87%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BC%AF%E8%B7%AF/index.html">
+<meta property="og:site_name" content="tigerose&#39;s site">
+<meta property="og:description" content="一些头疼的事情：D">
+<meta property="article:published_time" content="2020-04-20T16:00:00.000Z">
+<meta property="article:modified_time" content="2020-06-13T08:58:02.219Z">
+<meta property="article:author" content="tigerose">
+<meta property="article:tag" content="信息学相关">
+<meta name="twitter:card" content="summary">
+
+  
+
+  
+    <link rel="icon" href="https://tva1.sinaimg.cn/large/007S8ZIlly1gexj9fvcxdj30u20u0n2z.jpg">
+  
+
+  <link href="/css/styles.css?v=c114cbeddx" rel="stylesheet">
+
+
+  
+    
+<link rel="stylesheet" href="/css/personal-style.css">
+
+  
+
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-38189205-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+  
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?57e94d016e201fba3603a8a2b0263af0";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+  
+  <script type="text/javascript">
+	(function(){
+	    var bp = document.createElement('script');
+	    var curProtocol = window.location.protocol.split(':')[0];
+	    if (curProtocol === 'https') {
+	        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+	    }
+	    else {
+	        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+	    }
+	    var s = document.getElementsByTagName("script")[0];
+	    s.parentNode.insertBefore(bp, s);
+	})();
+  </script>
+
+
+
+  
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+<body>
+
+
+  
+    <span id="toolbox-mobile" class="toolbox-mobile">菜单</span>
+  
+
+  <div class="post-header CENTER">
+   
+  <div class="toolbox">
+    <a class="toolbox-entry" href="/">
+      <span class="toolbox-entry-text">菜单</span>
+      <i class="icon-angle-down"></i>
+      <i class="icon-home"></i>
+    </a>
+    <ul class="list-toolbox">
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/archives/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            博客
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/complex/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            复杂版
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/tag/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            标签
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/link/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            友链
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/about/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            关于
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/atom.xml"
+            rel="noopener noreferrer"
+            target="_blank"
+            >
+            RSS
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/search/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+
+</div>
+
+
+  <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#前言"><span class="toc-text">前言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#需要的东西"><span class="toc-text">需要的东西</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#仓库Settings中的Github-Pages处出现："><span class="toc-text">仓库Settings中的Github Pages处出现：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#下载主题版本与Jekyll不符，无法在本地服务器查看"><span class="toc-text">下载主题版本与Jekyll不符，无法在本地服务器查看</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#网页乱码"><span class="toc-text">网页乱码</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#更新的网页迟迟没有加载出来"><span class="toc-text">更新的网页迟迟没有加载出来</span></a></li></ol>
+  </div>
+
+
+
+<div class="content content-post CENTER">
+   <article id="post-2020-4-21-使用Github和Jekyll搭建博客走过的一些弯路" class="article article-type-post" itemprop="blogPost">
+  <header class="article-header">
+    <h1 class="post-title">使用Github Pages和Jekyll搭建博客走过的一些弯路</h1>
+
+    <div class="article-meta">
+      <span>
+        <i class="icon-calendar"></i>
+        <span>2020.04.21</span>
+      </span>
+
+      
+        <span class="article-author">
+          <i class="icon-user"></i>
+          <span>tigerose</span>
+        </span>
+      
+
+      
+  <span class="article-category">
+    <i class="icon-list"></i>
+    <a class="article-category-link" href="/categories/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/">信息学相关</a>
+  </span>
+
+
+
+      
+
+      
+      <i class="fa fa-eye"></i> 
+        <span id="busuanzi_container_page_pv">
+           &nbsp阅读 <span id="busuanzi_value_page_pv">
+           <i class="fa fa-spinner fa-spin"></i></span>
+        </span>
+      
+      
+    </div>
+  </header>
+
+  <div class="article-content">
+    
+      <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>因为手痒，所以会经常写一些文章，缺少一个堆放的地方，就选择了博客。先使用的是lofter，但lofter除了文章不挂在本博客内之外，还有些太开放了。因此，听说了Github Pages后，就寻求搭建了一个Blog。</p>
+<p>部署系统：MacOS</p>
+<h1 id="需要的东西"><a href="#需要的东西" class="headerlink" title="需要的东西"></a>需要的东西</h1><p>这个相信网上已经有很多教程了</p>
+<p>1.Ruby</p>
+<p>2.Jekyll</p>
+<p>3.Bundler</p>
+<p>4.Github账号（废话</p>
+<p>Tips：如果你的电脑系统为MacOS，那么MacOS终端自带Ruby，这里就省去了安装Ruby的步骤。</p>
+<h1 id="仓库Settings中的Github-Pages处出现："><a href="#仓库Settings中的Github-Pages处出现：" class="headerlink" title="仓库Settings中的Github Pages处出现："></a>仓库Settings中的Github Pages处出现：</h1><p>![](/_posts/截屏2020-04-21 上午10.12.42.png)</p>
+<p>看见这个字眼让我头大了许久。因为网上的教程里都是在这里去选择“master”。</p>
+<p>实际上，这是在版本更迭后仓库与用户名重合出现的问题，（我是这么理解的）</p>
+<p>根本不用管它。</p>
+<h1 id="下载主题版本与Jekyll不符，无法在本地服务器查看"><a href="#下载主题版本与Jekyll不符，无法在本地服务器查看" class="headerlink" title="下载主题版本与Jekyll不符，无法在本地服务器查看"></a>下载主题版本与Jekyll不符，无法在本地服务器查看</h1><p>碰到这个现象，我是直接莽fetch上github去的。</p>
+<h1 id="网页乱码"><a href="#网页乱码" class="headerlink" title="网页乱码"></a>网页乱码</h1><p>我遇到的情况是因为网页加载的太慢了，导致部分东西没有加载出来。可以换一个浏览器，重新加载或者把主题里post的东西一类删一些。</p>
+<h1 id="更新的网页迟迟没有加载出来"><a href="#更新的网页迟迟没有加载出来" class="headerlink" title="更新的网页迟迟没有加载出来"></a>更新的网页迟迟没有加载出来</h1><p>多半是碰到了语法错误。Github会向你的邮箱发一封邮件，里面标明了语法错误出现在哪一行。</p>
+
+    
+  </div>
+
+</article>
+
+
+   
+
+   
+  <div class="box-prev-next clearfix">
+    <a class="show pull-left" href="/2020/04/20/2020-4-20-%E5%85%B3%E4%BA%8E%E7%9F%B3%E6%95%AC%E7%91%AD%E4%B8%96%E7%B3%BB%E7%9A%84%E7%AE%80%E5%8D%95%E8%80%83%E8%AF%81/">
+        <i class="icon icon-angle-left"></i>
+    </a>
+    <a class="show pull-right" href="/2020/04/24/2020-4-24-%E5%90%AC%E4%B8%80%E9%A6%96%E6%AD%8C%E5%90%A7/">
+        <i class="icon icon-angle-right"></i>
+    </a>
+  </div>
+
+
+
+
+</div>
+
+
+  <a id="backTop" class="back-top">
+    <i class="icon-angle-up"></i>
+  </a>
+
+
+
+
+  <div class="modal" id="modal">
+  <span id="cover" class="cover hide"></span>
+  <div id="modal-dialog" class="modal-dialog hide-dialog">
+    <div class="modal-header">
+      <span id="close" class="btn-close">关闭</span>
+    </div>
+    <hr>
+    <div class="modal-body">
+      <ul class="list-toolbox">
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/archives/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              博客
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/complex/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              复杂版
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/tag/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              标签
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/link/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              友链
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/about/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              关于
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/atom.xml"
+              rel="noopener noreferrer"
+              target="_blank"
+              >
+              RSS
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/search/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              搜索
+            </a>
+          </li>
+        
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
+
+  
+      <div class="fexo-comments comments-post">
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js"></script>
+    <div id="comment" class="vcomment" ></div>
+    <script>
+        var notify = 'true' == true ? true : false;
+        var verify = 'false' == true ? true : false;
+        var GUEST_INFO = ['nick','mail','link'];
+        var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+            return GUEST_INFO.indexOf(item) > -1
+        });
+        guest_info = guest_info.length == 0 ? GUEST_INFO :guest_info;
+        window.valine = new Valine({
+            el: '.vcomment',
+            notify: notify,
+            verify: verify,
+            appId: "icdVD3WkrPEKYwXEYp0HkL3J-gzGzoHsz",
+            appKey: "w0Iq9fj6YxU01GP04Qj2znzq",
+            avatar:'mm',
+            placeholder: "欢迎评论，会有邮件提醒。",
+            guest_info:guest_info,
+            pageSize:'10'
+        });
+    </script>
+  
+    
+
+  </div>
+
+  
+
+  <script type="text/javascript">
+  function loadScript(url, callback) {
+    var script = document.createElement('script')
+    script.type = 'text/javascript';
+
+    if (script.readyState) { //IE
+      script.onreadystatechange = function() {
+        if (script.readyState == 'loaded' ||
+          script.readyState == 'complete') {
+          script.onreadystatechange = null;
+          callback();
+        }
+      };
+    } else { //Others
+      script.onload = function() {
+        callback();
+      };
+    }
+
+    script.src = url;
+    document.getElementsByTagName('head')[0].appendChild(script);
+  }
+
+  window.onload = function() {
+    loadScript('/js/bundle.js?235683', function() {
+      // load success
+    });
+  }
+</script>
+
+</body>
+</html>
