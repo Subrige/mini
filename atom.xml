@@ -3,11 +3,11 @@
   <title>Subrige&#39;s Blog</title>
   
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="/complex/atom.xml" rel="self"/>
   
-  <link href="https://subrige.xyz/"/>
+  <link href="https://subrige.xyz/complex/"/>
   <updated>2020-06-14T01:20:30.363Z</updated>
-  <id>https://subrige.xyz/</id>
+  <id>https://subrige.xyz/complex/</id>
   
   <author>
     <name>稚</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Pjax vs Aplayer</title>
-    <link href="https://subrige.xyz/2020/06/14/2020-6-14-aplayer/"/>
-    <id>https://subrige.xyz/2020/06/14/2020-6-14-aplayer/</id>
+    <link href="https://subrige.xyz/complex/2020/06/14/2020-6-14-aplayer/"/>
+    <id>https://subrige.xyz/complex/2020/06/14/2020-6-14-aplayer/</id>
     <published>2020-06-14T11:00:00.000Z</published>
     <updated>2020-06-14T01:20:30.363Z</updated>
     
@@ -30,32 +30,14 @@
     </summary>
     
     
-      <category term="信息学相关" scheme="https://subrige.xyz/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>乡巴佬开箱：年轻人的第一双Airpods</title>
-    <link href="https://subrige.xyz/2020/06/13/2020-6-14-airpods/"/>
-    <id>https://subrige.xyz/2020/06/13/2020-6-14-airpods/</id>
-    <published>2020-06-13T11:00:00.000Z</published>
-    <updated>2020-06-13T14:39:36.912Z</updated>
-    
-    <summary type="html">
-    
-      鸡冻鸡冻。
-    
-    </summary>
-    
-    
-      <category term="信息学相关" scheme="https://subrige.xyz/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
+      <category term="信息学相关" scheme="https://subrige.xyz/complex/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
     
   </entry>
   
   <entry>
     <title>为你博客的valine评论系统添加回复邮件提醒</title>
-    <link href="https://subrige.xyz/2020/06/13/2020-6-13-valine/"/>
-    <id>https://subrige.xyz/2020/06/13/2020-6-13-valine/</id>
+    <link href="https://subrige.xyz/complex/2020/06/13/2020-6-13-valine/"/>
+    <id>https://subrige.xyz/complex/2020/06/13/2020-6-13-valine/</id>
     <published>2020-06-13T11:00:00.000Z</published>
     <updated>2020-06-14T06:26:50.903Z</updated>
     
@@ -66,14 +48,32 @@
     </summary>
     
     
-      <category term="信息学相关" scheme="https://subrige.xyz/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
+      <category term="信息学相关" scheme="https://subrige.xyz/complex/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>乡巴佬开箱：年轻人的第一双Airpods</title>
+    <link href="https://subrige.xyz/complex/2020/06/13/2020-6-14-airpods/"/>
+    <id>https://subrige.xyz/complex/2020/06/13/2020-6-14-airpods/</id>
+    <published>2020-06-13T11:00:00.000Z</published>
+    <updated>2020-06-13T14:39:36.912Z</updated>
+    
+    <summary type="html">
+    
+      鸡冻鸡冻。
+    
+    </summary>
+    
+    
+      <category term="信息学相关" scheme="https://subrige.xyz/complex/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
     
   </entry>
   
   <entry>
     <title>Don&#39;t Stop the Clocks.</title>
-    <link href="https://subrige.xyz/2020/06/13/2020-6-13-music-5/"/>
-    <id>https://subrige.xyz/2020/06/13/2020-6-13-music-5/</id>
+    <link href="https://subrige.xyz/complex/2020/06/13/2020-6-13-music-5/"/>
+    <id>https://subrige.xyz/complex/2020/06/13/2020-6-13-music-5/</id>
     <published>2020-06-13T08:00:00.000Z</published>
     <updated>2020-06-14T01:11:45.539Z</updated>
     
@@ -84,14 +84,14 @@
     </summary>
     
     
-      <category term="杂" scheme="https://subrige.xyz/tags/%E6%9D%82/"/>
+      <category term="杂" scheme="https://subrige.xyz/complex/tags/%E6%9D%82/"/>
     
   </entry>
   
   <entry>
     <title>记第一次面基经历</title>
-    <link href="https://subrige.xyz/2020/05/27/2020-5-27-face/"/>
-    <id>https://subrige.xyz/2020/05/27/2020-5-27-face/</id>
+    <link href="https://subrige.xyz/complex/2020/05/27/2020-5-27-face/"/>
+    <id>https://subrige.xyz/complex/2020/05/27/2020-5-27-face/</id>
     <published>2020-05-27T08:00:00.000Z</published>
     <updated>2020-06-13T08:55:32.908Z</updated>
     
@@ -102,14 +102,14 @@
     </summary>
     
     
-      <category term="杂" scheme="https://subrige.xyz/tags/%E6%9D%82/"/>
+      <category term="杂" scheme="https://subrige.xyz/complex/tags/%E6%9D%82/"/>
     
   </entry>
   
   <entry>
     <title>年轻人的第一台iPad Pro</title>
-    <link href="https://subrige.xyz/2020/05/25/2020-5-25-iPadPro/"/>
-    <id>https://subrige.xyz/2020/05/25/2020-5-25-iPadPro/</id>
+    <link href="https://subrige.xyz/complex/2020/05/25/2020-5-25-iPadPro/"/>
+    <id>https://subrige.xyz/complex/2020/05/25/2020-5-25-iPadPro/</id>
     <published>2020-05-25T08:00:00.000Z</published>
     <updated>2020-06-13T08:55:39.614Z</updated>
     
@@ -120,14 +120,14 @@
     </summary>
     
     
-      <category term="杂" scheme="https://subrige.xyz/tags/%E6%9D%82/"/>
+      <category term="杂" scheme="https://subrige.xyz/complex/tags/%E6%9D%82/"/>
     
   </entry>
   
   <entry>
     <title>拥抱自然</title>
-    <link href="https://subrige.xyz/2020/05/19/2020-5-19-nature/"/>
-    <id>https://subrige.xyz/2020/05/19/2020-5-19-nature/</id>
+    <link href="https://subrige.xyz/complex/2020/05/19/2020-5-19-nature/"/>
+    <id>https://subrige.xyz/complex/2020/05/19/2020-5-19-nature/</id>
     <published>2020-05-19T08:00:00.000Z</published>
     <updated>2020-06-13T08:55:50.728Z</updated>
     
@@ -138,14 +138,14 @@
     </summary>
     
     
-      <category term="杂" scheme="https://subrige.xyz/tags/%E6%9D%82/"/>
+      <category term="杂" scheme="https://subrige.xyz/complex/tags/%E6%9D%82/"/>
     
   </entry>
   
   <entry>
     <title>死亡的恐惧</title>
-    <link href="https://subrige.xyz/2020/05/18/2020-5-18-death/"/>
-    <id>https://subrige.xyz/2020/05/18/2020-5-18-death/</id>
+    <link href="https://subrige.xyz/complex/2020/05/18/2020-5-18-death/"/>
+    <id>https://subrige.xyz/complex/2020/05/18/2020-5-18-death/</id>
     <published>2020-05-18T08:00:00.000Z</published>
     <updated>2020-06-13T08:55:59.269Z</updated>
     
@@ -156,14 +156,14 @@
     </summary>
     
     
-      <category term="杂" scheme="https://subrige.xyz/tags/%E6%9D%82/"/>
+      <category term="杂" scheme="https://subrige.xyz/complex/tags/%E6%9D%82/"/>
     
   </entry>
   
   <entry>
     <title>听一首歌吧：4</title>
-    <link href="https://subrige.xyz/2020/05/13/2020-5-14-merry/"/>
-    <id>https://subrige.xyz/2020/05/13/2020-5-14-merry/</id>
+    <link href="https://subrige.xyz/complex/2020/05/13/2020-5-14-merry/"/>
+    <id>https://subrige.xyz/complex/2020/05/13/2020-5-14-merry/</id>
     <published>2020-05-13T08:00:00.000Z</published>
     <updated>2020-06-13T08:56:06.364Z</updated>
     
@@ -174,14 +174,14 @@
     </summary>
     
     
-      <category term="杂" scheme="https://subrige.xyz/tags/%E6%9D%82/"/>
+      <category term="杂" scheme="https://subrige.xyz/complex/tags/%E6%9D%82/"/>
     
   </entry>
   
   <entry>
     <title>转载：卖米</title>
-    <link href="https://subrige.xyz/2020/05/13/2020-5-13-%E5%8D%96%E7%B1%B3/"/>
-    <id>https://subrige.xyz/2020/05/13/2020-5-13-卖米/</id>
+    <link href="https://subrige.xyz/complex/2020/05/13/2020-5-13-%E5%8D%96%E7%B1%B3/"/>
+    <id>https://subrige.xyz/complex/2020/05/13/2020-5-13-卖米/</id>
     <published>2020-05-13T04:00:00.000Z</published>
     <updated>2020-06-13T08:56:13.455Z</updated>
     
@@ -192,14 +192,14 @@
     </summary>
     
     
-      <category term="杂" scheme="https://subrige.xyz/tags/%E6%9D%82/"/>
+      <category term="杂" scheme="https://subrige.xyz/complex/tags/%E6%9D%82/"/>
     
   </entry>
   
   <entry>
     <title>（持续更新）从jekyll到hexo的迁移旅途</title>
-    <link href="https://subrige.xyz/2020/05/11/2020-5-11-hexo/"/>
-    <id>https://subrige.xyz/2020/05/11/2020-5-11-hexo/</id>
+    <link href="https://subrige.xyz/complex/2020/05/11/2020-5-11-hexo/"/>
+    <id>https://subrige.xyz/complex/2020/05/11/2020-5-11-hexo/</id>
     <published>2020-05-11T04:00:00.000Z</published>
     <updated>2020-06-13T08:56:23.820Z</updated>
     
@@ -210,14 +210,14 @@
     </summary>
     
     
-      <category term="信息学相关" scheme="https://subrige.xyz/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
+      <category term="信息学相关" scheme="https://subrige.xyz/complex/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
     
   </entry>
   
   <entry>
     <title>听一首歌吧：3</title>
-    <link href="https://subrige.xyz/2020/05/11/2020-5-10-%E5%9D%82%E6%9C%AC%E9%BE%99%E4%B8%80/"/>
-    <id>https://subrige.xyz/2020/05/11/2020-5-10-坂本龙一/</id>
+    <link href="https://subrige.xyz/complex/2020/05/11/2020-5-10-%E5%9D%82%E6%9C%AC%E9%BE%99%E4%B8%80/"/>
+    <id>https://subrige.xyz/complex/2020/05/11/2020-5-10-坂本龙一/</id>
     <published>2020-05-10T16:00:00.000Z</published>
     <updated>2020-06-13T08:56:35.225Z</updated>
     
@@ -228,14 +228,14 @@
     </summary>
     
     
-      <category term="音乐" scheme="https://subrige.xyz/tags/%E9%9F%B3%E4%B9%90/"/>
+      <category term="音乐" scheme="https://subrige.xyz/complex/tags/%E9%9F%B3%E4%B9%90/"/>
     
   </entry>
   
   <entry>
     <title>小感想：读「巨龙的胎动」</title>
-    <link href="https://subrige.xyz/2020/05/08/2020-5-8-%E5%B7%A8%E9%BE%99%E7%9A%84%E8%83%8E%E5%8A%A8/"/>
-    <id>https://subrige.xyz/2020/05/08/2020-5-8-巨龙的胎动/</id>
+    <link href="https://subrige.xyz/complex/2020/05/08/2020-5-8-%E5%B7%A8%E9%BE%99%E7%9A%84%E8%83%8E%E5%8A%A8/"/>
+    <id>https://subrige.xyz/complex/2020/05/08/2020-5-8-巨龙的胎动/</id>
     <published>2020-05-07T16:00:00.000Z</published>
     <updated>2020-06-13T08:56:44.567Z</updated>
     
@@ -246,14 +246,14 @@
     </summary>
     
     
-      <category term="历史" scheme="https://subrige.xyz/tags/%E5%8E%86%E5%8F%B2/"/>
+      <category term="历史" scheme="https://subrige.xyz/complex/tags/%E5%8E%86%E5%8F%B2/"/>
     
   </entry>
   
   <entry>
     <title>为Jekyll Blog添加一个可爱的看板喵：适用于hux主题</title>
-    <link href="https://subrige.xyz/2020/05/07/2020-5-7-live2d/"/>
-    <id>https://subrige.xyz/2020/05/07/2020-5-7-live2d/</id>
+    <link href="https://subrige.xyz/complex/2020/05/07/2020-5-7-live2d/"/>
+    <id>https://subrige.xyz/complex/2020/05/07/2020-5-7-live2d/</id>
     <published>2020-05-06T16:00:00.000Z</published>
     <updated>2020-06-13T08:56:54.309Z</updated>
     
@@ -264,14 +264,14 @@
     </summary>
     
     
-      <category term="信息学相关" scheme="https://subrige.xyz/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
+      <category term="信息学相关" scheme="https://subrige.xyz/complex/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
     
   </entry>
   
   <entry>
     <title>北海道随拍</title>
-    <link href="https://subrige.xyz/2020/05/06/2020-5-6-%E5%8C%97%E6%B5%B7%E9%81%93/"/>
-    <id>https://subrige.xyz/2020/05/06/2020-5-6-北海道/</id>
+    <link href="https://subrige.xyz/complex/2020/05/06/2020-5-6-%E5%8C%97%E6%B5%B7%E9%81%93/"/>
+    <id>https://subrige.xyz/complex/2020/05/06/2020-5-6-北海道/</id>
     <published>2020-05-05T16:00:00.000Z</published>
     <updated>2020-06-13T08:57:00.379Z</updated>
     
@@ -282,14 +282,14 @@
     </summary>
     
     
-      <category term="旅游" scheme="https://subrige.xyz/tags/%E6%97%85%E6%B8%B8/"/>
+      <category term="旅游" scheme="https://subrige.xyz/complex/tags/%E6%97%85%E6%B8%B8/"/>
     
   </entry>
   
   <entry>
     <title>黑苹果版本升级的一些坑</title>
-    <link href="https://subrige.xyz/2020/05/05/2020-5-5-Clover-configurator/"/>
-    <id>https://subrige.xyz/2020/05/05/2020-5-5-Clover-configurator/</id>
+    <link href="https://subrige.xyz/complex/2020/05/05/2020-5-5-Clover-configurator/"/>
+    <id>https://subrige.xyz/complex/2020/05/05/2020-5-5-Clover-configurator/</id>
     <published>2020-05-04T16:00:00.000Z</published>
     <updated>2020-06-13T08:57:08.555Z</updated>
     
@@ -300,14 +300,14 @@
     </summary>
     
     
-      <category term="信息学相关" scheme="https://subrige.xyz/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
+      <category term="信息学相关" scheme="https://subrige.xyz/complex/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
     
   </entry>
   
   <entry>
     <title>鸟枪换炮——在Jekyll Blog上部署aplayer</title>
-    <link href="https://subrige.xyz/2020/05/04/2020-5-4-%E9%B8%9F%E6%9E%AA%E6%8D%A2%E7%82%AE/"/>
-    <id>https://subrige.xyz/2020/05/04/2020-5-4-鸟枪换炮/</id>
+    <link href="https://subrige.xyz/complex/2020/05/04/2020-5-4-%E9%B8%9F%E6%9E%AA%E6%8D%A2%E7%82%AE/"/>
+    <id>https://subrige.xyz/complex/2020/05/04/2020-5-4-鸟枪换炮/</id>
     <published>2020-05-03T16:00:00.000Z</published>
     <updated>2020-06-13T08:57:34.473Z</updated>
     
@@ -318,14 +318,14 @@
     </summary>
     
     
-      <category term="信息学相关" scheme="https://subrige.xyz/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
+      <category term="信息学相关" scheme="https://subrige.xyz/complex/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
     
   </entry>
   
   <entry>
     <title>在家学习与偏科</title>
-    <link href="https://subrige.xyz/2020/04/26/2020-4-26-%E5%9C%A8%E5%AE%B6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%81%8F%E7%A7%91/"/>
-    <id>https://subrige.xyz/2020/04/26/2020-4-26-在家学习与偏科/</id>
+    <link href="https://subrige.xyz/complex/2020/04/26/2020-4-26-%E5%9C%A8%E5%AE%B6%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%81%8F%E7%A7%91/"/>
+    <id>https://subrige.xyz/complex/2020/04/26/2020-4-26-在家学习与偏科/</id>
     <published>2020-04-25T16:00:00.000Z</published>
     <updated>2020-06-13T08:57:41.029Z</updated>
     
@@ -336,14 +336,14 @@
     </summary>
     
     
-      <category term="学习" scheme="https://subrige.xyz/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://subrige.xyz/complex/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
   <entry>
     <title>一个让人哭笑不得的错误</title>
-    <link href="https://subrige.xyz/2020/04/25/2020-4-25-%E4%B8%80%E4%B8%AA%E8%AE%A9%E4%BA%BA%E5%93%AD%E7%AC%91%E4%B8%8D%E5%BE%97%E7%9A%84%E9%94%99%E8%AF%AF/"/>
-    <id>https://subrige.xyz/2020/04/25/2020-4-25-一个让人哭笑不得的错误/</id>
+    <link href="https://subrige.xyz/complex/2020/04/25/2020-4-25-%E4%B8%80%E4%B8%AA%E8%AE%A9%E4%BA%BA%E5%93%AD%E7%AC%91%E4%B8%8D%E5%BE%97%E7%9A%84%E9%94%99%E8%AF%AF/"/>
+    <id>https://subrige.xyz/complex/2020/04/25/2020-4-25-一个让人哭笑不得的错误/</id>
     <published>2020-04-24T16:00:00.000Z</published>
     <updated>2020-06-13T08:57:50.082Z</updated>
     
@@ -354,14 +354,14 @@
     </summary>
     
     
-      <category term="信息学相关" scheme="https://subrige.xyz/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
+      <category term="信息学相关" scheme="https://subrige.xyz/complex/tags/%E4%BF%A1%E6%81%AF%E5%AD%A6%E7%9B%B8%E5%85%B3/"/>
     
   </entry>
   
   <entry>
     <title>听一首歌吧。</title>
-    <link href="https://subrige.xyz/2020/04/24/2020-4-24-%E5%90%AC%E4%B8%80%E9%A6%96%E6%AD%8C%E5%90%A7/"/>
-    <id>https://subrige.xyz/2020/04/24/2020-4-24-听一首歌吧/</id>
+    <link href="https://subrige.xyz/complex/2020/04/24/2020-4-24-%E5%90%AC%E4%B8%80%E9%A6%96%E6%AD%8C%E5%90%A7/"/>
+    <id>https://subrige.xyz/complex/2020/04/24/2020-4-24-听一首歌吧/</id>
     <published>2020-04-23T16:00:00.000Z</published>
     <updated>2020-06-13T08:57:56.088Z</updated>
     
@@ -372,7 +372,7 @@
     </summary>
     
     
-      <category term="杂" scheme="https://subrige.xyz/tags/%E6%9D%82/"/>
+      <category term="杂" scheme="https://subrige.xyz/complex/tags/%E6%9D%82/"/>
     
   </entry>
   
