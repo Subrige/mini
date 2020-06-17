@@ -69,8 +69,8 @@ git这个项...">
         enable: true,
         loadingImage: '/images/theme/loading.gif',
       },
-      donate_alipay: 'https://pic.izhaoo.com/alipay.jpg',
-      donate_wechat: 'https://pic.izhaoo.com/wechat.jpg',
+      donate_alipay: '',
+      donate_wechat: '',
       motto: {
         api: '',
         default: '面朝大海，春暖花开。'
@@ -151,7 +151,7 @@ git这个项...">
   <section class="main">
     <section class="content">
       
-    <div id="aplayer-nFYaVWKC" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="25870662" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#49A6F9" data-volume="0.5"></div>
+    <div id="aplayer-BmnCRzVX" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="25870662" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#49A6F9" data-volume="0.5"></div>
 <p>效果如本Blog右下方小猫～</p>
 <p>git<a href="https://github.com/EYHN/hexo-helper-live2d" target="_blank" rel="noopener">这个项目</a>。</p>
 <blockquote>
@@ -182,16 +182,6 @@ git这个项...">
     </section>
     <section class="extra">
       
-        <section class="donate">
-  <div class="qrcode">
-    <img   class="lazyload" data-original="https://pic.izhaoo.com/alipay.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" >
-  </div>
-  <div class="icon">
-    <a href="javascript:;" id="alipay"><i class="iconfont iconalipay"></i></a>
-    <a href="javascript:;" id="wechat"><i class="iconfont iconwechat-fill"></i></a>
-  </div>
-</section>
-      
       
   <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/complex/tags/信息学相关/">信息学相关</a></li></ul>
 
@@ -212,6 +202,32 @@ git这个项...">
           <div class="btn" id="comments-btn">查看评论</div>
         
         
+<div id="valine"></div>
+<script defer src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+  window.onload = function () {
+    var loadValine = function () {
+      new Valine({
+        el: '#valine',
+        app_id: "vuqU634lyQJAHwn6FWxsAdGV-MdYXbMMI",
+        app_key: "PrSCl81zfsFQFIznPrNmaqyh",
+        placeholder: "雁过留痕",
+        avatar: "mp",
+        pageSize: "10",
+        lang: "zh-CN",
+      });
+    }
+    if ( true ) {
+      $("#comments-btn").on("click", function () {
+        $(this).hide();
+        loadValine();
+      });
+    } else {
+      loadValine();
+    }
+  };
+</script>
+
       </section>
     
   </section>

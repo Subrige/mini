@@ -75,8 +75,8 @@
         enable: true,
         loadingImage: '/images/theme/loading.gif',
       },
-      donate_alipay: 'https://pic.izhaoo.com/alipay.jpg',
-      donate_wechat: 'https://pic.izhaoo.com/wechat.jpg',
+      donate_alipay: '',
+      donate_wechat: '',
       motto: {
         api: '',
         default: '面朝大海，春暖花开。'
@@ -157,7 +157,7 @@
   <section class="main">
     <section class="content">
       
-    <div id="aplayer-lXgOXOsu" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="22810185" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#49A6F9" data-volume="0.5"></div>
+    <div id="aplayer-kahChnXK" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="22810185" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#49A6F9" data-volume="0.5"></div>
 <p><img class="lazyload" data-original="https://tva1.sinaimg.cn/large/007S8ZIlly1geil6jzgwrj31400u0hdv.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt></p>
 <p>田间。</p>
 <p><img class="lazyload" data-original="https://tva1.sinaimg.cn/large/007S8ZIlly1geila26vuyj31400u01kz.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" alt></p>
@@ -169,16 +169,6 @@
 
     </section>
     <section class="extra">
-      
-        <section class="donate">
-  <div class="qrcode">
-    <img   class="lazyload" data-original="https://pic.izhaoo.com/alipay.jpg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==" >
-  </div>
-  <div class="icon">
-    <a href="javascript:;" id="alipay"><i class="iconfont iconalipay"></i></a>
-    <a href="javascript:;" id="wechat"><i class="iconfont iconwechat-fill"></i></a>
-  </div>
-</section>
       
       
   <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/complex/tags/旅游/">旅游</a></li></ul>
@@ -200,6 +190,32 @@
           <div class="btn" id="comments-btn">查看评论</div>
         
         
+<div id="valine"></div>
+<script defer src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+  window.onload = function () {
+    var loadValine = function () {
+      new Valine({
+        el: '#valine',
+        app_id: "vuqU634lyQJAHwn6FWxsAdGV-MdYXbMMI",
+        app_key: "PrSCl81zfsFQFIznPrNmaqyh",
+        placeholder: "雁过留痕",
+        avatar: "mp",
+        pageSize: "10",
+        lang: "zh-CN",
+      });
+    }
+    if ( true ) {
+      $("#comments-btn").on("click", function () {
+        $(this).hide();
+        loadValine();
+      });
+    } else {
+      loadValine();
+    }
+  };
+</script>
+
       </section>
     
   </section>
